@@ -1,7 +1,7 @@
 // import express
 const express = require('express');
 const UserRouter = require('./routers/userRouter');
-const PostRouter = require('./routers/postRouter');
+const BookingRouter = require('./routers/bookingRouter');
 
 const cors = require('cors');
 
@@ -18,7 +18,7 @@ app.use(cors(
 app.use(express.json());
 
 app.use('/user', UserRouter);
-app.use('/post', PostRouter);
+app.use('/booking', BookingRouter);
 
 
 app.get('/', (req, res) => {

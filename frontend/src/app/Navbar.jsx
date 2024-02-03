@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          The Vegie Garden
+          The Restaurant Garden
         </a>
         <button
           className="navbar-toggler"

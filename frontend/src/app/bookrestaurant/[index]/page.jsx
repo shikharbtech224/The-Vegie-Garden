@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import './book.css';
 import { useParams, useRouter } from 'next/navigation';
 import restaurantdata from '@/app/restaurantdata';
 
@@ -11,6 +12,7 @@ const bookrestaurant = () => {
   const displayDishes = () => {
     return restaurantDetail.dishes.map(dish => {
       return <div className='col-md-3'>
+
         <div className="card">
           <img src={dish.image} alt="" />
           <div className="card-body">

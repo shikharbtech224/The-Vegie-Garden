@@ -1,0 +1,9 @@
+.dish-card{
+    height: 200px;
+    object-fit: cover;
+}
+.heading{
+    text-decoration: wavy;
+    color: rgb(9, 44, 42);
+    text-align: center;
+}

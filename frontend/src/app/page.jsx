@@ -7,7 +7,7 @@ const Home = () => {
     <div className="page">
       <h1>
         <span style={{ color: "orange" }}>The</span>{" "}
-        <span style={{ color: "orange" }}>Veggie</span>{" "}
+        <span style={{ color: "orange" }}>Restaurant</span>{" "}
         <span style={{ color: "orange" }}>Garden</span>{" "}</h1>
       <div className="vh-100 d-flex align-items-center">
         <div className="container">
